@@ -1,0 +1,79 @@
+ .cabeçalho{
+    padding: 5%;
+    background: linear-gradient(rgb(55, 33, 73), rgb(195, 103, 223));
+    border: hsl(294, 42%, 9%);
+    border-radius: 18px;
+ }
+ h1{
+    text-align: center;
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+body{
+    background: linear-gradient(320deg, #ca194e, #5900ff, rgb(14, 51, 155)); 
+    background-attachment: fixed;
+    padding: 2%;
+}
+ .grid{
+    display: grid;
+    column-gap: 1%;
+    grid-template-columns: auto auto ;
+    padding: 10px;
+
+ }
+ .button{
+    display: grid;
+    column-gap: 1%;
+    grid-template-columns: auto auto ;
+    padding: 10px;
+    justify-items: center;
+ }
+ .botao{
+    background-color: rgba(0, 0, 0, 0);
+    border:#ca194e;
+    width: 50%;
+    margin: 2px;
+    transition: 0.4s;
+ }
+ .botao:hover{
+    width: 63%;
+    margin: 2px;
+ }
+ .foto{
+    width: 100%;
+ }
+ .final{
+    background-color: rgb(77, 69, 80);
+    padding: 3%;
+    text-align: center;
+    border: #5900ff;
+    border-radius: 18px;
+    color: aliceblue;
+ }
+ .tela{
+    background-color: rgb(66, 36, 77);
+    padding: 3%;
+    text-align: center;
+    border: #5900ff;
+    border-radius: 18px;
+    color: rgb(215, 74, 250);
+    margin: 2%;
+    padding: 10%;
+    border: solid;
+    overflow: hidden;
+    position:sticky;
+    width: 170%;
+    height: 60%;
+    margin: 2%;
+    margin-left: 5.5%;
+ }
+ .mario{
+    width: 40%;
+    position:relative;
+    animation: mario 3s linear infinite;
+    margin: 2%;
+ }
+ @keyframes mario {
+    from{ right: 110% ;}
+    to{ right: -110%; }
+ }
